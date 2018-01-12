@@ -20,7 +20,7 @@ spec:
       serviceAccountName: heapster
       containers:
       - name: heapster
-        image: registry.glodon.com:5000/heapster-amd64:v1.4.2
+        image: registry.glodon.com:5000/heapster-amd64:v1.4.0
         imagePullPolicy: IfNotPresent
         command:
         - /heapster
